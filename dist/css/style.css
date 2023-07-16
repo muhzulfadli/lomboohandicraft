@@ -404,6 +404,11 @@ footer p {
         font-size: 28px;
     }
 
+    .navigation .box-navigation .box:nth-child(1) h1 {
+        font-size: 25px;
+        color: white;
+    }
+
     .gallery {
         height: 100%;
         padding: 50px 0 50px 0;
@@ -424,6 +429,11 @@ footer p {
 }
 
 @media screen and (max-width:575px) {
+    .navigation .box-navigation .box:nth-child(1) h1 {
+        font-size: 20px;
+        color: white;
+    }
+
     .about .box-about .box:nth-child(1) h1 {
         font-size: 34px;
     }
