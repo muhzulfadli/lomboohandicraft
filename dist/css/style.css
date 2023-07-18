@@ -149,6 +149,7 @@ header .hero p {
     display: flex;
     align-items: center;
     background-color: #ff9042;
+    background-image: repeating-linear-gradient(36deg, rgba(194, 74, 74, 0.1), rgba(71, 34, 34, 0.1) 1px, transparent 10px, transparent 20px);
 }
 
 .famous .box-famous {
