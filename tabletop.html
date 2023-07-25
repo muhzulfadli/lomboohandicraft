@@ -1,104 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/dist/css/style.css">
-    <link rel="stylesheet" href="/dist/css/tabletop.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/css/style.css" />
+    <link rel="stylesheet" href="/dist/css/tabletop.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Lomboo Handicraft</title>
-</head>
-<body id="home">
+    <link rel="icon" href="./image/logo.png" type="image/x-icon" />
+  </head>
+  <body id="home">
     <header>
-        <!-- navigation -->
-        <section class="navigation" id="navigation">
-            <div class="container">
-                <div class="box-navigation animate__animated animate__fadeInDown">
-                    <div class="box">
-                        <a href="./index.html">
-                            <img src="/image/logo.png" alt="logo"/>
-                            <div>
-                                <h1>Lomboo</h1>
-                                <h1>Handicraft</h1>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="box menu-navigation">
-                        <ul>
-                            <li>
-                                <i class="ri-home-4-line"></i>
-                                <a href="./index.html">Home</a>
-                            </li>
-                            <li>
-                                <i class="ri-information-line"></i>
-                                <a href="./index.html#about">About</a>
-                            </li>
-                            <li>
-                                <i class="ri-star-line"></i>
-                                <a href="./index.html#famous">Product</a>
-                            </li>
-                            <li>
-                                <i class="ri-newspaper-line"></i>
-                                <a href="./news.html">News</a>
-                            </li>
-                            <li>
-                                <i class="ri-movie-line"></i>
-                                <a href="./videogallery.html">Video Gallery</a>
-                            </li>
-                            <li>
-                                <i class="ri-gallery-line"></i>
-                                <a href="/photogallery.html">Photo Gallery</a>
-                            </li>
-                            <li>
-                                <i class="ri-phone-line"></i>
-                                <a href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="box menu-bar">
-                        <i class="ri-menu-3-fill" style="color: white;"></i>
-                    </div>
+      <!-- navigation -->
+      <section class="navigation" id="navigation">
+        <div class="container">
+          <div class="box-navigation animate__animated animate__fadeInDown">
+            <div class="box">
+              <a href="./index.html">
+                <img src="/image/logo.png" alt="logo" />
+                <div>
+                  <h1>Lomboo</h1>
+                  <h1>Handicraft</h1>
                 </div>
+              </a>
             </div>
-        </section>
-        <!-- navigation -->
+            <div class="box menu-navigation">
+              <ul>
+                <li>
+                  <i class="ri-home-4-line"></i>
+                  <a href="./index.html">Home</a>
+                </li>
+                <li>
+                  <i class="ri-information-line"></i>
+                  <a href="./index.html#about">About</a>
+                </li>
+                <li>
+                  <i class="ri-star-line"></i>
+                  <a href="./index.html#famous">Product</a>
+                </li>
+                <li>
+                  <i class="ri-newspaper-line"></i>
+                  <a href="./news.html">News</a>
+                </li>
+                <li>
+                  <i class="ri-movie-line"></i>
+                  <a href="./videogallery.html">Video Gallery</a>
+                </li>
+                <li>
+                  <i class="ri-gallery-line"></i>
+                  <a href="/photogallery.html">Photo Gallery</a>
+                </li>
+                <li>
+                  <i class="ri-phone-line"></i>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="box menu-bar">
+              <i class="ri-menu-3-fill" style="color: black"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- navigation -->
 
-        <!-- hero -->
-        <section class="hero" id="hero">
-            <h1 class="animate__animated animate__pulse">Tabletop</h1>
-        </section>
-        <!-- hero -->
+      <!-- hero -->
+      <section class="hero" id="hero">
+        <h1 class="animate__animated animate__pulse">Tabletop</h1>
+      </section>
+      <!-- hero -->
     </header>
 
+    <!-- famous -->
+    <section class="famous" id="famous">
+      <div class="container">
+        <h2 data-aos="fade-left" data-aos-duration="1000">Container</h2>
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6748.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/images/tabletop/IMG_6763.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6748.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6748.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-    
+    <!-- famous -->
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6767.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6766.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6768.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6769.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- famous -->
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6770.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6771.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6792.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6773.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- famous -->
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6774.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6775.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6776.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6777.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- famous -->
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6778.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6779.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6780.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6781.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- famous -->
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6782.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6783.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6784.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6785.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- famous -->
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6786.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6787.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6788.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6789.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- famous -->
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6790.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6791.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6792.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6793.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- famous -->
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6794.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6794.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6795.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6796.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- famous -->
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6797.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6798.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6799.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6800.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- famous -->
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6801.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6802.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6803.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6804.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6805.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6806.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6807.JPG" alt="" />
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="/image/tabletop/IMG_6809.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- contact -->
     <section class="contact" id="contact">
-        <div class="container">
-            <div class="box-contact">
-                <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">Location</h1>
-                <iframe data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" className="rounded-lg"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d985.8429284509065!2d116.40004502856594!3d-8.751052291618622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdad11877d2f19%3A0x6c6fd84d8571ae74!2sANGGUN%20ARTSHOP!5e0!3m2!1sen!2sid!4v1688804513227!5m2!1sen!2sid" width="150" height="150" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="margin-bottom: 50px;"></iframe>
-                <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">Contact</h1>
-                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"><a href="https://web.facebook.com/profile.php?id=100090195491650" style="text-decoration: none; color: white;" target="_blank"><i class="ri-facebook-fill"></i></a></h1>
-                <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300"><a href="https://www.youtube.com/@Lomboo.handicraft" style="text-decoration: none; color: white;" target="_blank"><i class="ri-youtube-fill"></i></a></h1>
-                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400"><a href="https://www.tiktok.com/@lombohandicraft" style="text-decoration: none; color: white;" target="_blank"><i class='fab fa-tiktok'></i></a></h1>
-                <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500"><a href="https://wa.me/6281999889243" style="text-decoration: none; color: white;" target="_blank"><i class="ri-whatsapp-fill"></i></a> </h1>
-            </div>
+      <div class="container">
+        <div class="title"><h1>Get In Touch</h1></div>
+        <div class="box-contact">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3943.3685808843443!2d116.40003100000001!3d-8.751348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdad11877d2f19%3A0x6c6fd84d8571ae74!2sANGGUN%20ARTSHOP!5e0!3m2!1sen!2sid!4v1690288031350!5m2!1sen!2sid"
+            width="800"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          ></iframe>
+          <div class="social">
+            <h1
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              Contact
+            </h1>
+            <h1
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <a
+                href="https://web.facebook.com/profile.php?id=100090195491650"
+                style="text-decoration: none; color: white"
+                target="_blank"
+                ><i class="ri-facebook-fill"></i
+              ></a>
+            </h1>
+            <h1
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
+              <a
+                href="https://www.youtube.com/@Lomboo.handicraft"
+                style="text-decoration: none; color: white"
+                target="_blank"
+                ><i class="ri-youtube-fill"></i
+              ></a>
+            </h1>
+            <h1
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <a
+                href="https://www.tiktok.com/@lombohandicraft"
+                style="text-decoration: none; color: white"
+                target="_blank"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+            </h1>
+            <h1
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              <a
+                href="https://wa.me/6281999889243"
+                style="text-decoration: none; color: white"
+                target="_blank"
+                ><i class="ri-whatsapp-fill"></i
+              ></a>
+            </h1>
+          </div>
         </div>
+      </div>
     </section>
     <!-- contact -->
 
     <script src="/dist/js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
-</body>
+      AOS.init();
+    </script>
+  </body>
 </html>
