@@ -149,6 +149,49 @@ header .hero p {
   width: 600px;
 }
 
+.about .counter .wrapper {
+  position: absolute;
+  width: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 20px;
+}
+.about .counter .wrapper .container {
+  width: 200px;
+  height: 25vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1em 0;
+  position: relative;
+  font-size: 16px;
+  border-radius: 0.5em;
+  background-color: white;
+  border-bottom: 10px solid #ff9042;
+}
+.about .counter .wrapper i {
+  color: #ff9042;
+  font-size: 2.5em;
+  text-align: center;
+}
+.about .counter .wrapper span.num {
+  color: black;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 3em;
+}
+.about .counter .wrapper span.text {
+  color: black;
+  font-size: 1em;
+  text-align: center;
+  pad: 0.7em 0;
+  font-weight: 400;
+  line-height: 0;
+}
+
 /* famous style */
 .famous {
   width: 100%;
@@ -374,6 +417,15 @@ footer p {
   .about .box-about .box:nth-child(2) img {
     width: 500px;
   }
+
+  .about .counter .wrapper {
+    width: 350px;
+  }
+  .about .counter .wrapper .container {
+    height: 150px;
+    width: 150px;
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -483,7 +535,17 @@ footer p {
 
   .navigation .box-navigation .box:nth-child(1) h1 {
     font-size: 25px;
-    color: white;
+    color: black;
+  }
+
+  .about .counter .wrapper {
+    width: 600px;
+    gap: 30px;
+  }
+  .about .counter .wrapper .container {
+    width: 200px;
+    height: auto;
+    font-size: 12px;
   }
 
   .gallery {
@@ -573,6 +635,17 @@ footer p {
 
   .about .box-about .box:nth-child(2) img {
     width: 250px;
+  }
+
+  .about .counter .wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .about .counter .wrapper .container {
+    width: 100px;
+    height: 100px;
+    font-size: 8px;
   }
 
   .famous .box-famous .box img {
