@@ -146,7 +146,7 @@ header .hero p {
 
 .about .box-about .box:nth-child(2) img {
   border-radius: 10px;
-  width: 600px;
+  width: 400px;
 }
 
 .about .counter .wrapper {
@@ -482,6 +482,10 @@ footer p {
     font-size: 34px;
   }
 
+  .about {
+    height: 850px;
+  }
+
   .about .box-about {
     flex-direction: column-reverse;
   }
@@ -489,11 +493,14 @@ footer p {
   .about .box-about .box:nth-child(1) {
     text-align: center;
     margin-top: 30px;
-    padding-right: 0;
   }
 
   .about .box-about .box:nth-child(2) img {
-    width: 400px;
+    width: 200px;
+  }
+
+  .about .box-about .wrapper {
+    margin-left: 30%;
   }
 
   .famous {
@@ -541,6 +548,7 @@ footer p {
   .about .counter .wrapper {
     width: 600px;
     gap: 30px;
+    margin-left: 40px;
   }
   .about .counter .wrapper .container {
     width: 200px;
@@ -591,6 +599,10 @@ footer p {
     color: black;
   }
 
+  .about {
+    height: 120vh;
+  }
+
   .about .box-about .box:nth-child(1) h1 {
     font-size: 34px;
   }
@@ -601,6 +613,11 @@ footer p {
 
   .about .box-about .box:nth-child(2) img {
     width: 300px;
+  }
+
+  .about .box-about .wrapper {
+    margin-left: auto;
+    width: 100%;
   }
 
   .famous .box-famous .box img {
@@ -623,6 +640,10 @@ footer p {
 @media screen and (max-width: 475px) {
   header .hero h1 {
     font-size: 20px;
+  }
+
+  .about {
+    height: 100vh;
   }
 
   .about .box-about .box:nth-child(1) h1 {
